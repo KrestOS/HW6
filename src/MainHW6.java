@@ -1,10 +1,5 @@
-package HW6;
+import Animals.*;
 
-import Animals.Animals;
-import Animals.Cat;
-import Animals.Dog;
-
-import java.util.Random;
 
 public class MainHW6 {
     public static void main(String[] args) {
@@ -23,6 +18,7 @@ public class MainHW6 {
                 new Dog("Topotun"),
 
         };
+
 
 
         for (int i = 1; i <= animals.length ; i++) {
